@@ -21,9 +21,11 @@
     <p>Já me livrei da maldição!!</p>
 
     <script>
-        //window.alert('Olá, mundo!');
-        /*window.confirm('Está gostando do JS?');*/
-        window.prompt('Qual é seu nome?');// Exemplo de comentário
+        /* EXEMPLO 1*/
+        let nome =    window.prompt('Qual é seu nome?');//Vai armazenar na variável nome oque for informado
+        alert('É um grande prazer em te conhecer ' + nome);//feito contatenação (+) ai vai mostrar oque informou como sendo seu nome
+        alert(`É um grande prazer em te conhecer ${nome}`);//Aqui forma de concatenar a variável com o texto também, mas precisa ser feito dessa forma usando (`` crase) e ai dentro e junto ao texto faz ${nome da variável}
+
     </script>
 </body>
 </html>

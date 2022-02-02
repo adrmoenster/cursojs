@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(255, 212, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+
+    <script>
+
+        /* EXEMPLO 1 */
+        let n1 = window.prompt('Digite um número');
+        let n2 = window.prompt('Digite outro número');
+
+        let soma = Number.parseInt(n1) + Number.parseInt(n2);
+        alert('A Soma dos numero ' + n1 + ' mais ' + n2 + ' é igual a ' + soma);
+
+        // Number.parseInt(n) converte algo para numero inteiro
+        // Number.parseFloat(n) converte algo para número quebrado exemplo 5.3
+        // Existe opção que coloca só Number() nesse caso o javascript se vira para identificar se é inteiro ou float(Está disponíuvel versão mais recente JS)
+        // + para adição(deve ter valores como tipo numero para funcionar)
+        // + para concatenação
+
+        /*EXEMPLO 2 */
+        let num1 = Number.parseInt(window.prompt('Digite um número'));//Assim ja considera que n1 será do tipo inteiro
+        let num2 = Number.parseInt(window.prompt('Digite outro numero'));
+
+        let s = num1 + num2;
+        alert('A soma dos números é ' + s);
+
+    </script>
+</body>
+</html>
