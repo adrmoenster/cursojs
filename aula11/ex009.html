@@ -5,11 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Condições</title>
+    <style>
+        body{
+            font:normal 16pt Arial;
+        }
+        
+        input#textnac{
+            width: 200px;
+            padding: 200px;
+        }
+        input#txtbot{
+            width:100px;
+            background: rgba(31, 29, 29, 0.699);
+            color: white;
+            
+        }
+    </style>
 </head>
 <body>
     <h1>Condições em JavaScript ex002</h1>
     <input type="text" name="txtnac" id="txtnac">
-    <input type="button" value="Verificar" onclick="nac()">
+    <input type="button" value="Verificar" onclick="nac()" id="txtbot">
     <div id="res"></div>
 
     <script src="ex009.js"></script>
