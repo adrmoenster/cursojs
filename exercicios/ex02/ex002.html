@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            background-color: rgb(4, 120, 167);
+        }
+        h1{
+            text-align: center;
+        }
+        section#principal{
+            background-color: white;
+            width: 500px;
+            height: 400px;
+            border-radius: 15px;
+            margin: auto;
+        }
+        section>p{
+            margin-left: 20px;
+        }
+        section>p>input{
+            margin: 20px 0 0 10px;
+            
+        }
+        div#res{
+            background-color: aquamarine;
+            width: 300px;
+            height: 200px;
+            text-align: center;
+            margin: auto;
+        }
+
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section id="principal">
+        <p>Ano de Nascimento <input type="date" name="txtdata" id="txtdata"></p>
+        <p>Sexo: <input type="radio" name="txtsexo" id="sexm" checked> Masculino
+                 <input type="radio" name="txtsexo" id="sexf"> Feminino</p>
+        <p><input type="button" value="verificar"></p>
+        <div id="res">
+            <h3>Detectamos</h3>
+            <img src="img/imgbebef.png" alt="fotopessoa">
+        </div>
+    </section>
+
+    <footer>
+        <p>@aprendendo</p>
+    </footer>
+</body>
+</html>
