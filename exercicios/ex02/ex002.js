@@ -22,7 +22,7 @@ function verificaidade(){
                 let difdia = dtdia - dianac;
                 
                 if( difAno == 0){
-                    img.src += "img/imgbebef.png";
+                    res = img.src += "img/imgbebef.png";
                     
                     res.innerHTML += window.document.body
                     if(difmes < 1){                      
@@ -69,8 +69,9 @@ function verificaidade(){
                 let difdia = dtdia - dianac;
                 
                 if( difAno == 0){  
-                    img.src = "img/imgbebem.png";                
-                    if(difmes < 1){                      
+                                  
+                    if(difmes < 1){ 
+                        img.src = "img/imgbebem.png";                       
                         res.innerHTML += `<p>de ${difdia} dia(s) de vida!</p>`;
                     }else{
                         res.innerHTML += `<p>de ${difmes} mese(s) de vida!</p>`;
